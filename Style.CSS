@@ -1,0 +1,112 @@
+h1 {
+    color: rgb(169, 124, 187);
+    outline-color: black;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-width: 2px;
+    border-color: rgb(222, 58, 228);
+    border-radius: 12px;
+    box-shadow: 0 5px 8px 2px rgba(139, 18, 150, 0.1);
+
+}
+
+p:hover {
+    background-color: rgb(208, 148, 238);
+
+}
+
+body {
+    background-color: rgb(247, 199, 225);
+    border: plum;
+}
+
+.myForm {
+    border-width: 3px;
+    border-color: rgb(169, 124, 187);
+    border-style: solid;
+
+    padding: 20px;
+    margin: 30px;
+}
+
+
+.main-heading {
+    color: rgb(169, 124, 187);
+    text-align: center;
+    border-width: 2px;
+    border-color: rgb(228, 58, 185);
+    border-radius: 12px;
+    box-shadow: 0 5px 8px 2px rgba(139, 18, 150, 0.1);
+
+}
+
+.black-text {
+    color: black;
+}
+
+
+
+
+p {
+    transition: all 0.7s;
+
+    /*Styling Borders*/
+
+    border-width: 2px;
+    border-color: rgb(169, 124, 187);
+    border-radius: 12px;
+    text-align: center;
+    border-style: dotted;
+    box-shadow: 0 5px 8px 2px rgba(139, 18, 150, 0.1);
+    padding: 20px;
+    /*margin: 20px;*/
+    margin: 40px 100px;
+    /*margin-left: 20px;
+    margin-right: 50px*/
+
+
+
+}
+
+input {
+    margin-top: 20px;
+
+
+    /*Border Styles*/
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+
+    /*border radius*/
+    border-radius: 40px;
+    /*padding 20px*/
+}
+
+input[type=submit] {
+    border-radius: 0px;
+}
+
+
+.stories-section {
+
+    background-image: linear-gradient(-45deg, #e499b2, #d66bbf, #923692);
+    background-size: 400% 400%;
+    width: 2000px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+    color: rgb(229, 201, 230);
+
+}
+
+nav {
+    border-color: #b380c0;
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    margin: right 10px;
+}

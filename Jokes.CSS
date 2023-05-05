@@ -1,0 +1,19 @@
+/*Jokes CSS*/
+
+.Joke-Generator {
+    color: #e73c7e;
+    text-align: center;
+    border-width: 2px;
+    border-color: rgb(228, 58, 185);
+    border-radius: 12px;
+    box-shadow: 0 5px 8px 2px rgba(139, 18, 150, 0.1);
+
+}
+
+#jokes {
+    border: solid;
+    padding: 6px;
+    margin: 12px
+}
+
+.Joke-Button {}

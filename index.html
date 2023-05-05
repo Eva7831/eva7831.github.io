@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Test Website</title>
+
+    <link rel="stylesheet" href="Style.CSS">
+</head>
+
+<body>
+    <nav>
+        <a href="./contact.html">Contact</a>
+        <a href="./index.html">Home</a>
+    </nav>
+
+    <header role="banner">
+        <h1>Test Website - My Bio</h1>
+        <p>My name is Eva, I am 14 years old and I am learning to code. I enjoy drawing and making crafts.
+            My family consists of my mom (Natalya), my dad (Anatoly), my little sister (Caia), and me.
+            I also have a cat named Pixie, and a little hamster named Luna. </p>
+        <img src="hamster.jpg" width="20%" class="hamster">
+
+        <img src="cat.jpg" width="20%">
+        <img src="drawing.jpg" width="20%">
+
+
+
+    </header>
+
+
+    <h1 draggable="true" ondrag="myFunction()" class="main-heading">Why am I taking this Course?</h1>
+
+
+    <p> I'm taking this course to hopefully learn how to create my own website for my small business.
+        I want to learn the basics of coding, so that in the future, it will be easier for me to build a website.</p>
+
+
+    <img src="" width="20%">
+    <img src="" width="20%">
+
+
+
+    <h1> My personal Blog</h1>
+
+    <video controls width="30%">
+        <source src="sunset-153976.mp4" type="video/mp4">
+    </video>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <a href="https://www.google.com">This is a link to Google</a>
+
+
+
+    <h3>User Details Form</h3>
+    <form id="myForm">
+
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name" placeholder="Please write your name...">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Please Enter your email...">
+        <br>
+        <br>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday">
+        <br>
+        <br>
+        <input type="submit" value="Submit This Form">
+        <br>
+        <br>
+
+    </form>
+
+    <!--Background Image-->
+    <section class="stories-section">
+        <h1>THIS IS THE END :D</h1>
+    </section>
+
+
+    <footer>
+        <p>Created by <a href="http:/tutorialspoint.com/">Tutorials
+                Point</a></p>
+    </footer>
+    <script>
+
+        var first_name = "Eva"
+        var last_name = "Podoprigora"
+        console.log(first_name);
+        console.log(last_name);
+
+        function calculateSum(firstNumber, secondNumber) {
+            var sumOfTwoNumbers = firstNumber + secondNumber;
+            return sumOfTwoNumbers
+
+
+        }
+        var sum = calculateSum(5, 10);
+        console.log("Sum of two nums", sum)
+
+
+
+        var funnyEmoji = "😀"
+        console.log(funnyEmoji)
+
+        function myFunction() {
+            var funnyEmoji = "😀"
+            console.log(funnyEmoji)
+
+            alert("Hey please dont click")
+        }
+
+        function changeName() {
+            document.getElementById("intro").innerHTML = "Hey Eva Here";
+        }
+
+
+        document.getElementById("myForm").addEventListener("submit", handleFormSubmit)
+
+        function handleFormSubmit(event) {
+            event.preventDefault()
+
+
+            var name = document.getElementById("first-name").value
+            var email = document.getElementById("email").value
+            var birthday = document.getElementById("birthday").value
+
+            console.log(name)
+            console.log(email)
+            console.log(birthday)
+        }
+
+    </script>
+</body>
+
+</html>
